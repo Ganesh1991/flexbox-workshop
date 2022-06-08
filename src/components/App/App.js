@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "styled-components/macro";
+import React from 'react';
+import styled from 'styled-components/macro';
 
-import Header from "../Header";
-import ShoeIndex from "../ShoeIndex";
+import Header from '../Header';
+import ShoeIndex from '../ShoeIndex';
 
 const App = () => {
-  const [sortId, setSortId] = React.useState("newest");
+  const [sortId, setSortId] = React.useState('newest');
 
   return (
     <>
@@ -19,8 +19,6 @@ const App = () => {
 
 const Main = styled.main`
   padding: 64px 32px;
-  display: flex;
-  flex-direction: row;
 `;
 
 export default App;
